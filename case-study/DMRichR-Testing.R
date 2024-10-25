@@ -1,12 +1,11 @@
 devtools::install_github("wassimsalam01/DMRichR")
-devtools::install_github("wassimsalam01/annotatr")
-devtools::install_github("wassimsalam01/dmrseq")
-devtools::install_github("wassimsalam01/ChIPseeker")
+# Custom dmrseq, annotatr and ChIPseeker are installed upon execution of DMRichR when choosing Dpulex genome
 library(DMRichR)
 setwd("/path/to/cytosine-reports")
 # In working directory must be present:
 # BSgenome seed file (if compiling BSgenome from scratch)
 # sample_info.xlsx
+# Cytosine Reports
 # CGI-Dpulex.txt
 DMRichR::DM.R(genome = "Dpulex",
               coverage = 1,
