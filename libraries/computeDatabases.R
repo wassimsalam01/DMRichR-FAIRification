@@ -1,3 +1,12 @@
+###### INSTALLATION ONLY ######
+# IF using the already computed packages (.tar.gz), simply execute the following #
+install.packages("BSgenome.Dpulex.NCBI.ASM2113471v1_1.0.0.tar.gz", repos = NULL, type = "source")
+install.packages("TxDb.Dpulex.NCBI.ASM2113471v1.knownGene_1.0.tar.gz", repos = NULL, type = "source")
+install.packages("org.Dpulex.eg.db_1.0.tar.gz", repos = NULL, type = "source")
+###############################
+
+# Computation of BSgenome, TxDb and org.db
+
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install(version = "3.18")
