@@ -26,7 +26,5 @@ The directory contains all files needed to execute the run for the case study. S
 
 **Figure 2.** DMR plot displaying a DMR consisting of 13 CpGs with 23% hypomethylation in young samples compared to old samples. The methylation level of each CpG site in an individual sample is shown as a point, with its size directly proportional to its coverage. Smoothed methylation levels are represented by lines, color-coded as blue for control samples (old) and red for experimental samples. A track of CpG and gene annotations are additionally displayed under the plot, retrieved from the computed CGI track and org.db package respectively.
 
-## Utility of Custom BSgenome, TxDb, and org.db Packages
-
 ## [Citations](https://github.com/wassimsalam01/DMRichR-FAIRification/blob/main/CITATIONS.md)
 
